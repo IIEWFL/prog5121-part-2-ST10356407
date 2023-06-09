@@ -10,7 +10,8 @@ public class LoginSystem {
     private static double totalDuration = 0;
 
     public static void main(String[] args) {
-
+        registerUser();
+        loginUser();
         displayMenu();
     }
 //registration for user
